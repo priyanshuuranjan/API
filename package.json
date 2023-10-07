@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,10 @@
     "node": "^20.7.0",
     "nodemon": "^3.0.1",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20"
   }
 }
